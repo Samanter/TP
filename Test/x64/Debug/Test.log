@@ -1,0 +1,126 @@
+﻿  MyForm.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\type_traits(16707566): warning C4244: 'return': conversion from 'T' to '_Rx', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              _Rx=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\functional(16707566): note: see reference to function template instantiation '_Rx std::_Invoker_ret<_Rx,false>::_Call<_Callable&,_Ty,_Ty>(_Callable &,_Ty &&,_Ty &&)' being compiled
+          with
+          [
+              _Rx=int,
+              _Callable=<lambda_b3210145f4579157acd72180c51ddab5>,
+              _Ty=float
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\functional(16707566): note: see reference to function template instantiation '_Rx std::_Invoker_ret<_Rx,false>::_Call<_Callable&,_Ty,_Ty>(_Callable &,_Ty &&,_Ty &&)' being compiled
+          with
+          [
+              _Rx=int,
+              _Callable=<lambda_b3210145f4579157acd72180c51ddab5>,
+              _Ty=float
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\functional(15732480): note: while compiling class template member function '_Rx std::_Func_impl_no_alloc<<lambda_b3210145f4579157acd72180c51ddab5>,_Rx,T,T>::_Do_call(T &&,T &&)'
+          with
+          [
+              _Rx=int,
+              T=float
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\functional(1061): note: see reference to class template instantiation 'std::_Func_impl_no_alloc<<lambda_b3210145f4579157acd72180c51ddab5>,_Ret,T,T>' being compiled
+          with
+          [
+              _Ret=int,
+              T=float
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\functional(1320): note: see reference to class template instantiation 'std::_Is_large<_Impl>' being compiled
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\functional(1502): note: see reference to function template instantiation 'void std::_Func_class<_Ret,T,T>::_Reset<<lambda_b3210145f4579157acd72180c51ddab5>>(_Fx &&)' being compiled
+          with
+          [
+              _Ret=int,
+              T=float,
+              _Fx=<lambda_b3210145f4579157acd72180c51ddab5>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\functional(1502): note: see reference to function template instantiation 'void std::_Func_class<_Ret,T,T>::_Reset<<lambda_b3210145f4579157acd72180c51ddab5>>(_Fx &&)' being compiled
+          with
+          [
+              _Ret=int,
+              T=float,
+              _Fx=<lambda_b3210145f4579157acd72180c51ddab5>
+          ]
+  c:\users\asus\documents\vs 2017\ciclo 3\cc31-c.algoritmo-parcial\test\test\game.h(185): note: see reference to function template instantiation 'std::function<int (T,T)>::function<<lambda_b3210145f4579157acd72180c51ddab5>,void>(_Fx)' being compiled
+          with
+          [
+              T=float,
+              _Fx=<lambda_b3210145f4579157acd72180c51ddab5>
+          ]
+  c:\users\asus\documents\vs 2017\ciclo 3\cc31-c.algoritmo-parcial\test\test\myform.h(541): note: see reference to function template instantiation 'std::function<int (T,T)>::function<<lambda_b3210145f4579157acd72180c51ddab5>,void>(_Fx)' being compiled
+          with
+          [
+              T=float,
+              _Fx=<lambda_b3210145f4579157acd72180c51ddab5>
+          ]
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\type_traits(16707566): warning C4244: 'return': conversion from '__int64' to '_Rx', possible loss of data
+          with
+          [
+              _Rx=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\functional(16707566): note: see reference to function template instantiation '_Rx std::_Invoker_ret<_Rx,false>::_Call<_Callable&,_Ty,_Ty>(_Callable &,_Ty &&,_Ty &&)' being compiled
+          with
+          [
+              _Rx=int,
+              _Callable=Cola<UserData *,0x0>::<lambda_8236350ec2cd13e4830258ae2be19447>,
+              _Ty=UserData *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\functional(16707566): note: see reference to function template instantiation '_Rx std::_Invoker_ret<_Rx,false>::_Call<_Callable&,_Ty,_Ty>(_Callable &,_Ty &&,_Ty &&)' being compiled
+          with
+          [
+              _Rx=int,
+              _Callable=Cola<UserData *,0x0>::<lambda_8236350ec2cd13e4830258ae2be19447>,
+              _Ty=UserData *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\functional(15732480): note: while compiling class template member function '_Rx std::_Func_impl_no_alloc<Cola<UserData *,0x0>::<lambda_8236350ec2cd13e4830258ae2be19447>,_Rx,T,T>::_Do_call(T &&,T &&)'
+          with
+          [
+              _Rx=int,
+              T=UserData *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\functional(1061): note: see reference to class template instantiation 'std::_Func_impl_no_alloc<Cola<UserData *,0x0>::<lambda_8236350ec2cd13e4830258ae2be19447>,_Ret,T,T>' being compiled
+          with
+          [
+              _Ret=int,
+              T=UserData *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\functional(1320): note: see reference to class template instantiation 'std::_Is_large<_Impl>' being compiled
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\functional(1502): note: see reference to function template instantiation 'void std::_Func_class<_Ret,T,T>::_Reset<Cola<T,0x0>::<lambda_8236350ec2cd13e4830258ae2be19447>>(_Fx &&)' being compiled
+          with
+          [
+              _Ret=int,
+              T=UserData *,
+              _Fx=Cola<UserData *,0x0>::<lambda_8236350ec2cd13e4830258ae2be19447>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\functional(1502): note: see reference to function template instantiation 'void std::_Func_class<_Ret,T,T>::_Reset<Cola<T,0x0>::<lambda_8236350ec2cd13e4830258ae2be19447>>(_Fx &&)' being compiled
+          with
+          [
+              _Ret=int,
+              T=UserData *,
+              _Fx=Cola<UserData *,0x0>::<lambda_8236350ec2cd13e4830258ae2be19447>
+          ]
+  c:\users\asus\documents\vs 2017\ciclo 3\cc31-c.algoritmo-parcial\test\test\cola.h(36): note: see reference to function template instantiation 'std::function<int (T,T)>::function<Cola<T,0x0>::<lambda_8236350ec2cd13e4830258ae2be19447>,void>(_Fx)' being compiled
+          with
+          [
+              T=UserData *,
+              _Fx=Cola<UserData *,0x0>::<lambda_8236350ec2cd13e4830258ae2be19447>
+          ]
+  c:\users\asus\documents\vs 2017\ciclo 3\cc31-c.algoritmo-parcial\test\test\cola.h(36): note: see reference to function template instantiation 'std::function<int (T,T)>::function<Cola<T,0x0>::<lambda_8236350ec2cd13e4830258ae2be19447>,void>(_Fx)' being compiled
+          with
+          [
+              T=UserData *,
+              _Fx=Cola<UserData *,0x0>::<lambda_8236350ec2cd13e4830258ae2be19447>
+          ]
+  c:\users\asus\documents\vs 2017\ciclo 3\cc31-c.algoritmo-parcial\test\test\cola.h(36): note: while compiling class template member function 'Cola<UserData *,0x0>::Cola(int)'
+  c:\users\asus\documents\vs 2017\ciclo 3\cc31-c.algoritmo-parcial\test\test\game.h(33): note: see reference to function template instantiation 'Cola<UserData *,0x0>::Cola(int)' being compiled
+  c:\users\asus\documents\vs 2017\ciclo 3\cc31-c.algoritmo-parcial\test\test\myform.h(505): note: see reference to class template instantiation 'Cola<UserData *,0x0>' being compiled
+  MyForm.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  Test.vcxproj -> C:\Users\ASUS\Documents\VS 2017\Ciclo 3\CC31-C.algoritmo-parcial\Test\x64\Debug\Test.exe
